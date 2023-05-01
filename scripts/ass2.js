@@ -1,4 +1,4 @@
-// .....................TASK 01..................
+// ---------------------------------------------TASK 01----------------------------------------------
 
 // Calculate the zakat value, first, create a variable named "zakatPercentage" and
 // store the value of 2.5% in it (hint: 2.5% means 0.025). Next, create another variable
@@ -17,7 +17,7 @@
 // alert("Your Zakat value is " + result);
 
 
-// // ...............................TASK 02 ..............................
+// // ----------------------------------------------TASK 02 ----------------------------------------------------
 
 // // calculate the fitrah amount, first, ask the user to enter the total number of family
 // // members using the prompt and store the value in a variable called
@@ -59,7 +59,7 @@
 // }
     
 
-// ........................TASK 03...........................
+// ----------------------------------------------TASK 03----------------------------------------------------------
 
 // Create a program that generates a random number between 1 and 10 and stores it
 // in a variable called "secretNumber". Then, ask the user to enter a guess for the
@@ -91,7 +91,7 @@
 //     alert("Try again")}
 
 
-// ...............TASK 04.....................
+// --------------------------------------------------TASK 04------------------------------------------------------------------------
 
 // Create a program that asks the user to enter a name, and then prints out the name
 // with the first letter capitalized (Make your name in capitalized case).
@@ -104,7 +104,7 @@
 
 // alert(capitalizedname);
 
-// ......................TASK 05.......................
+// -------------------------------------------TASK 05--------------------------------------------------------------
 
 // In this task, you will be creating two empty arrays called "contactNumbers" and
 // "contactNames". Using the prompt, you will ask the user to enter a contact number
@@ -134,30 +134,31 @@
 //   console.log(contactNames[i] + " : "  + contactNumbers[i]);
 // }
 
-// .........................TASK 06......................
+// ------------------------------------------------TASK 06-------------------------------------------------------------------------------
 
 // Create an Array that contains different products, and get input from the user in which you
 // ask your user to give the position of that element he/she wants. Now remove that Item
 // from your array and console the removed item, Also display the remaining items in the
 // array and total number of items remaining.
 
-// var outCome=["pikachu","lugia","mew","snorlax"];
+// var outCome = ["pikachu","lugia","mew","snorlax"];
 
-// var userOutCome=+prompt("put the number of outcome you want to remove= \n 1.pikachu, \n 2.lugia, \n 3.mew, \n 4.snorlax");
+// var userOutCome = +prompt("Put the number of outcome you want to remove= \n 1.pikachu, \n 2.lugia, \n 3.mew, \n 4.snorlax");
 
-// var removedOutCome= outCome.splice(userOutCome,1);
+// var removedOutCome= outCome.splice(userOutCome - 1,1);
 
-// console.log("The removed outcome is:" +removedOutCome);
-// alert("The removed outcome is:" +removedOutCome);
+// console.log("The removed outcome is:" +removedOutCome[0]);
+// alert("The removed outcome is:" +removedOutCome[0]);
 
 
-// console.log("The remainder is");
-// for( i=0 ; i<outCome.length ; i+=2) {
+// console.log("The remainder is:");
+// for( i=0 ; i<outCome.length ; i++) {
 //  console.log (i +" " + outCome[i]);
 // }
 // console.log("the remainder is" + outCome.length);
 
-// .........................TASK 07......................
+
+// ----------------------------------------------TASK 07---------------------------------------------------
 
 // Create a program that asks the user for their nationality, gender, and age using the prompt
 // function. The program should then use nested if-else statements to determine if the
@@ -201,7 +202,7 @@
 // }
 // }
 
-// .........................TASK 08......................
+// ---------------------------------------------------TASK 08--------------------------------------------------------------
 
 // You have an array that contains the names of Pakistani Team Players selected for
 // WorldCup (15 Players) named as WorldCupSquad. Now, tomorrow we have a match with
