@@ -294,17 +294,20 @@
 // Output the result to the screen like so: “You will need 
 // NNNN to last you until the ripe old age of NN”.
 
-var favSnack = "CHEETOS";
-var currentAge = 20 ;
-var maxAge = 68 ; 
-var estAmnt = 2;
+// var favSnack = "CHEETOS";
+// var currentAge = 20 ;
+// var maxAge = 68 ; 
+// var estAmnt = 2;
 
-var yrsRemaining = maxAge - currentAge;
-var remainingDays = yrsRemaining * 365;
-var totalAmnt = remainingDays * estAmnt
+// var yrsRemaining = maxAge - currentAge;
+// var remainingDays = yrsRemaining * 365;
+// var totalAmnt = remainingDays * estAmnt;
 
-document.write("Favourite Snack: " + favSnack + "<br>");
-document.write("Current age: " + currentAge + "<br>");
-document.write("Estimated maximum age: " + maxAge + "<br>");
-document.write("Amount of snacks per day: " + estAmnt + "<br>");
-document.write("You will need " + total +" cheetos to last you untill the ripe old age of " + maxAge);
+// document.write("Favourite Snack: " + favSnack + "<br>");
+// document.write("Current age: " + currentAge + "<br>");
+// document.write("Estimated maximum age: " + maxAge + "<br>");
+// document.write("Amount of snacks per day: " + estAmnt + "<br>");
+// document.write("You will need " + totalAmnt +" cheetos to last you untill the ripe old age of " + maxAge);
+
+// ------------------------------------------------------------------------------------------------------------
+// 
