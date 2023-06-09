@@ -35,7 +35,7 @@
 
 // var products = prompt("Enter the product title.");
 
-// var quantity =+ prompt("Enter the quantity");
+// var quantity = +prompt("Enter the quantity");
 
 // var message = visitorName + " ordered " + quantity + " " + products  + " on XYZ Clothing store."
 

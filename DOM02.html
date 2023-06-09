@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
+</head>
+<body>
+  <div>
+    <h1>DOM</h1>
+    <div id="form-content" class="content">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" />
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" />
+      <label for="email">Email</label>
+      <input type="text" id="email" />
+    </div>
+    <div id="main-content" class="content">
+      <p class="render">First Name: Alex</p>
+      <p class="render" id="lastName">Last Name: Bank</p>
+      <p class="render">Email: alexbank@example.com</p>
+      <p class="render">Country: Pakistan</p>
+      <p class="render">Contact: +92 300 1234567</p>
+    </div>
+  </div>
+
+  <script>
+    // i. What is node type of element having id "form-content".
+    var formContent = document.getElementById("form-content");
+    var formContentType = formContent.nodeType;
+
+    // ii. Show node type of element having id "lastName" and its child node.
+    var lastName = document.getElementById("lastName");
+    var lastNameNodeType = lastName.nodeType;
+    var lastNameChildNode = lastName.childNodes[0].nodeType;
+
+    // iii. Update child node of element having id "lastName".
+    lastName.firstChild.nodeValue = "Updated Last Name: Smith";
+
+    // iv. Get First and last child of id "main-content".
+    var mainContent = document.getElementById("main-content");
+    var firstChild = mainContent.firstElementChild;
+    var lastChild = mainContent.lastElementChild;
+
+    // v. Get next and previous siblings of id "lastName".
+    var lastNameNextSibling = lastName.nextElementSibling;
+    var lastNamePreviousSibling = lastName.previousElementSibling;
+
+    // vi. Get parent node and node type of element having id "email".
+    var email = document.getElementById("email");
+    var emailParentNode = email.parentNode;
+    var emailNodeType = email.nodeType;
+
+    // Display the results on the browser
+    var resultDiv = document.createElement("div");
+
+    resultDiv.innerHTML = "<h2>Results:</h2>" +
+      "<p>i. Node type of element with id 'form-content': " + formContentType + "</p>" +
+      "<p>ii. Node type of element with id 'lastName': " + lastNameNodeType + "<br> Child node type: " + lastNameChildNode + "</p>" +
+      "<p>iii. Updated child node of element with id 'lastName': " + lastName.firstChild.nodeValue + "</p>" +
+      "<p>iv. First child of element with id 'main-content': " + firstChild.innerHTML + "<br> Last child: " + lastChild.innerHTML + "</p>" +
+      "<p>v. Next sibling of element with id 'lastName': " + lastNameNextSibling.innerHTML + "<br> Previous sibling: " + lastNamePreviousSibling.innerHTML + "</p>" +
+      "<p>vi. Parent node of element with id 'email': " + emailParentNode.innerHTML + "<br> Node type: " + emailNodeType + "</p>";
+
+    document.body.appendChild(resultDiv);
+  </script>
+</body>
+</html>

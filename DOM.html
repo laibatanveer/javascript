@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
+</head>
+<body>
+  <div>
+    <h1>DOM</h1>
+    <div id="form-content" class="content">
+      <label for="first-name">First Name</label>
+      <input type="text" id="first-name" />
+      <label for="last-name">Last Name</label>
+      <input type="text" id="last-name" />
+      <label for="email">Email</label>
+      <input type="text" id="email" />
+    </div>
+    <div id="main-content" class="content">
+      <p class="render">First Name: Sauleha</p>
+      <p class="render" id="lastName">Last Name: Farhad</p>
+      <p class="render">Email: abcduber@gmail.com</p>
+      <p class="render">Country: Pakistan</p>
+      <p class="render">Contact: 0313823123</p>
+    </div>
+  </div>
+
+  <script>
+    var mainContent = document.getElementById("main-content");
+
+    var childElements = mainContent.children;
+    for (var i = 0; i < childElements.length; i++) {
+      console.log(childElements[i]);
+    }
+
+    var renderElements = document.getElementsByClassName("render");
+    for (var m = 0; j < renderElements.length; m++) {
+      console.log(renderElements[m].innerHTML);
+    }
+
+    var firstNameInput = document.getElementById("first-name");
+    firstNameInput.value = "laiba";
+
+    var lastNameInput = document.getElementById("last-name");
+    var emailInput = document.getElementById("email");
+
+    lastNameInput.value = "shah";
+    emailInput.value = "dguyfytd@gmail.com";
+  </script>
+</body>
+</html>

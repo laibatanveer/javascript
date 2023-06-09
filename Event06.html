@@ -1,0 +1,39 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<body>
+    <form id="form" onsubmit="submitIt()">
+        <input type="text" placeholder="Username" id="username" required>
+        <br>
+        <input type="email" placeholder="Email" id="email" required>
+        <br>
+        <input type="password" placeholder="Password" id="password" required>
+        <br>
+        <input type="submit" value="Sign up">
+    </form>
+
+    <div id="formData"></div>
+
+    <script>
+        var form = document.getElementById('form');
+
+        form.addEventListener('submit', function(event){
+            event.preventDefault();
+            
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            var formDataDiv = document.getElementById('formData');
+            formDataDiv.innerHTML = "YOUR INFORMATION" + "<br>" +
+                "Username: " + username + "<br>" +
+                "Email: " + email + "<br>" +
+                "Password: " + password + "<br>";
+        });
+    </script>
+</body>
+</html> -->

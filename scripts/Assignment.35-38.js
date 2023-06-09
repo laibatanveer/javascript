@@ -261,22 +261,24 @@
 // • Pass the radius to the function.
 // • Calculate the area based on the radius, and output "The area // is NN
 
-var radius = +prompt("Enter the radius of a circle in cms:");
+// var radius = +prompt("Enter the radius of a circle in cms:");
 
-function calcCircumference (){
+// function calcCircumference (){
 
-    var circumference = (radius * 3.142) * 2;
-    return circumference;
+//     var circumference = (radius * 3.142) * 2;
+//     return circumference;
 
-}
+// }
 
-function calcArea (){
+// function calcArea (){
 
-    var area = (radius**2) * 3.142 ; 
-return area;
-}
+//     var area = (radius**2) * 3.142 ; 
+// return area;
+// }
 
-document.write("THE GEOMETRIZER" + "<br>");
-document.write("Radius: " + radius + "<br>");
-document.write("Circumference of the circle: " + calcCircumference() + "<br>");
-document.write("Area of the circle: " + calcArea());
+// document.write("THE GEOMETRIZER" + "<br>");
+// document.write("Radius: " + radius + "<br>");
+// document.write("Circumference of the circle: " + calcCircumference() + "<br>");
+// document.write("Area of the circle: " + calcArea());
+
+// --------------------------------------------------------------------------------------------------------------------------------------------
