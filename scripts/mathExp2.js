@@ -57,7 +57,7 @@
 // }
 
 // document.write("The Multiplication table of " + num + "<br>");
-// for (var i = 1; i <= 15; i++) {
+// for (var i = 1; i <= 15; i++) {0
 //     var result = num * i;
 //     document.write(num + " x " + i + " = " + result + "<br>");
 // }

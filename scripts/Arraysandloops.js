@@ -178,11 +178,15 @@
 // -----------------------------TASK 10---------------------------------------------------
 // Write a program to print multiples of 5 ranging 1 to 100.
 
-var multiplesOfFive = [];
+// var multiplesOfFive = [];
 
-for (var i = 1; i <= 100; i++) {
-  if (i % 5 === 0) {
-    multiplesOfFive.push(i);
-  }
-}
-document.write(" The Multiples of 5 ranging from 1 to 100: " +"<br><br>"+ multiplesOfFive.join(", "));
+// for (var i = 1; i <= 100; i++) {
+//   if (i % 5 === 0) {
+//     multiplesOfFive.push(i);
+//   }
+// }
+// document.write(" The Multiples of 5 ranging from 1 to 100: " +"<br><br>"+ multiplesOfFive.join(", "));
+
+// ----------------------------------------------------------------------------------------------------------
+
+
